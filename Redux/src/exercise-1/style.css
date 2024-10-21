@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 60px;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  width: 100vw;
+}
+
+div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background: skyblue;
+  width: 130px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 1px;
+  margin: 10px;
+  font-size: 20px;
+}
