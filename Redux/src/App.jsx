@@ -1,17 +1,8 @@
-import "./App.css";
-import Buttoncreator from "./exercise-1/components/Button";
+import Redux from "./exercise-1/Redux";
 function App() {
   return (
     <>
-      <section>
-        {" "}
-        <h1>0</h1>
-        <div>
-          <Buttoncreator props={"Incerement"} />
-          <Buttoncreator props={"Decrement"} />
-          <Buttoncreator props={"Reset"} />
-        </div>
-      </section>
+      <Redux />
     </>
   );
 }

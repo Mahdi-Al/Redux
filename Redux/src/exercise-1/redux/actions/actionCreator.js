@@ -1,12 +1,12 @@
 import { INCREMENT, DECREMENT, RESET } from "./actionTypes";
 export const add = () => {
   return {
-    typeof: INCREMENT,
+    type: INCREMENT,
   };
 };
 export const mines = () => {
   return {
-    typeof: DECREMENT,
+    type: DECREMENT,
   };
 };
 export const reset = () => {
