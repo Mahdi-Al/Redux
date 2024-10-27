@@ -1,4 +1,5 @@
-import Redux from "./exercise-1/Redux";
+// import "./App.css";
+import Redux from "../src/exercise-1/Redux";
 function App() {
   return (
     <>
