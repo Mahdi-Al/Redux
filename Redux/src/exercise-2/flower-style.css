@@ -8,7 +8,7 @@
 
 .hero {
   height: 650px;
-  background-image: url(../../material/hero-bg.jpg) !important;
+  background-image: url(./material/hero-bg.jpg) !important;
 
   background-position: left !important;
   background-size: cover !important;
@@ -16,14 +16,29 @@
   border-bottom-right-radius: 80px;
   border-bottom-left-radius: 80px;
 }
-
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header nav {
+  background: #e7e7e5 !important;
+}
+.logo {
+  border-radius: 50%;
+  width: 70px;
+}
+.text-header {
+  margin: 100px;
+}
+.bag-icon {
+  border: 10px #dc143c !important;
+}
 .shop-btn {
   background-color: #fc5f5f !important;
   transition: all 0.5s ease;
   border: none;
-  width: 15vw;
+  width: 130px;
   height: 55px;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 .shop-btn:hover {
@@ -51,13 +66,16 @@
 }
 
 .cart-card {
-  background-color: #f8f9fa;
+  /* background-color: #f8f9fa; */
   padding: 16px;
   border-radius: 8px;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
+.price {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
 /* Mobile (small screens): 3 columns */
 @media (min-width: 480px) {
   .cart-container {
