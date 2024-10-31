@@ -6,11 +6,13 @@ export const countReducer = (state = initialSate, action) => {
   switch (action.type) {
     case INCREMENT:
       return {
-        count: state.count + 1,
+        ...state,
+
+        count: Number(state.count) + Number(action.payload),
       };
     case RESET:
       return {
-        count: state.count - state.count,
+        count: 0.0,
       };
 
     default:

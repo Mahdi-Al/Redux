@@ -10,7 +10,7 @@ import { reset } from "../redux/actions/actionCreator";
 import logo from "../material/download.jpg";
 export default function Header() {
   const dispatch = useDispatch();
-  const totalAmount = useSelector((state) => state.count);
+  const totalAmount = useSelector((state) => state.count.toFixed(2));
 
   const handleReset = () => {
     dispatch(reset());
@@ -39,7 +39,7 @@ export default function Header() {
                     <button className="btn btn-success" onClick={handleReset}>
                       Rest
                     </button>
-                    <img src={Basket} alt="" />${totalAmount.toFixed(2)}
+                    <img src={Basket} alt="" />${totalAmount}
                   </Nav.Link>
                 </Nav>
               </Navbar.Collapse>
